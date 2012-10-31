@@ -1,0 +1,17 @@
+<h4> <u>RESULTADO:</u>
+	<br><img src="http://www.oscarblanco.net/iconos/mycomputer/mycomputer.png" height="5%" width="3%"> <img src="http://www.gifanimados.com/web/flecha_derecha/arrow9.gif"> <%= @computer_throw %>
+	<br><img src="http://www.veryicon.com/icon/png/System/Scrap/User.png" height="5%" width="3%"> <img src="http://www.gifanimados.com/web/flecha_derecha/arrow9.gif"> <%= @player_throw %> 
+</h4>
+<h5><%= @answer %></h5>
+<form method="post" action="/throw">
+	<h2>Seleccione:</h2>
+		<h3>
+			<td>
+				<tr>	Piedra<input type="radio" name="type" value="piedra"> 
+				<br> Papel	<input type="radio" name="type" value="papel"> 
+				<br> Tijera<input type="radio" name="type" value="tijera"> </tr>
+				<br><input type="submit" value="Enviar"> </tr>
+			</td>
+		</h3>
+		<img src="http://fashionablygeek.com/wp-content/uploads/2010/07/Rock_Paper_Scissor_Hold.jpg?cb5e28" height="40%" width="30%">		
+</form>
